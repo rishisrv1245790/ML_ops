@@ -47,7 +47,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install the required dependencies:
 
-    ```python
+    ```bash
     pip install -r requirements.txt
 
 # 3. Configuration
@@ -72,7 +72,7 @@ Select the branch you want to deploy.
 Set the environment to Python.
 Specify the build command (if using Docker, specify the Dockerfile path):
 
-    ```python
+    ```bash
    pip install -r requirements.txt
 
 # Set the start command:
