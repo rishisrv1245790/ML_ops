@@ -41,14 +41,15 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/rishisrv1245790/ML_ops
    cd ML_ops
 
-2.Create a virtual environment and activate it:
+# 2.Create a virtual environment and activate it:
 
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install the required dependencies:
 
 pip install -r requirements.txt
-Configuration
+
+# 3. Configuration
 Create a .env file in the root directory and add your environment variables:
 
 DATABASE_URL=your_database_url
