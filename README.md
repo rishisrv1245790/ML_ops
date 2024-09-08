@@ -48,7 +48,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+      pip install -r requirements.txt
 
 # 3. Configuration
 Create a .env file in the root directory and add your environment variables:
@@ -73,7 +73,7 @@ Set the environment to Python.
 Specify the build command (if using Docker, specify the Dockerfile path):
 
     ```bash
-   pip install -r requirements.txt
+      pip install -r requirements.txt
 
 # Set the start command:
 
