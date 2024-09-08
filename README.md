@@ -77,13 +77,15 @@ Specify the build command (if using Docker, specify the Dockerfile path):
 
 # Set the start command:
 
-gunicorn app:app  # Adjust according to your app structure
-Environment Variables:
-Add the environment variables you specified in the .env file.
-Deploy:
-Click "Create Web Service" to start the deployment process.
-Usage
-Once deployed, you can interact with your model via the REST API. Here’s an example of how to make a prediction:
+- gunicorn app:app  
+
+## Environment Variables:
+- Add the environment variables you specified in the .env file.
+
+## Deploy:
+- Click "Create Web Service" to start the deployment process.
+- Usage
+- Once deployed, you can interact with your model via the REST API. Here’s an example of how to make a prediction:
     ```bash
     curl -X POST https://your-service-url/api/predict \
     -H "Content-Type: application/json" \
@@ -100,6 +102,7 @@ Contributions are welcome! Please follow these steps:
 - Make your changes and commit them (git commit -m 'Add some feature').
 - Push to the branch (git push origin feature/YourFeature).
 - Open a pull request.
-License
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
